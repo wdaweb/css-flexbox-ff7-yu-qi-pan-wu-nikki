@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0px;
+      height: 100vh;
+      background: url(./ff7_flexbox/bg-full.jpg)no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      width: 80vw;
+      height: 70vh;
+      margin: auto;
+      display: flex;
+
+    }
+
+    .left {
+      width: 50%;
+      height: 100%;
+      background: url(./ff7_flexbox/main.jpg);
+      font-family: '微軟正黑體';
+      text-align: center;
+      display: flex;
+      color: #fff;
+    }
+
+    .left div {
+      width: 70%;
+      margin: auto;
+      align-self: center;
+    }
+
+
+
+    h1 {
+      margin-bottom: 0px;
+      font-size: 40px;
+    }
+
+    p {
+      margin-top: 0px;
+      font-size: 20px;
+    }
+
+    .left img {
+      width: 35%;
+    }
+
+    .right {
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(0deg, black 50%, rgb(145, 145, 145)50%);
+      font-family: '微軟正黑體';
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .right-top {
+      height: 50%;
+      display: flex;
+    }
+
+    .right-top img {
+      width: 35%;
+      align-self: end;
+
+    }
+
+    .right-top div {
+      align-self: center;
+      margin-left: 40px;
+    }
+
+    .right-buttom {
+      height: 50%;
+      display: flex;
+      color: #fff;
+
+    }
+
+    .right-buttom img {
+      width: 35%;
+      align-self: end;
+      margin-left: 20px;
+    }
+
+
+
+    .right-buttom div {
+      width: 65%;
+      align-self: center;
+      margin-left: -3.5rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card ">
+    <div class="left  ">
+      <div><img src="./ff7_flexbox/ps4-ff7.png" alt="">
+        <h1>AVAILABLE NOW</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus aliquam praesentium quo voluptatum delectus
+          reprehenderit? Et ut distinctio, quisquam, exercitationem eum qui natus accusamus corporis, voluptate quam
+          voluptatibus maxime cumque?</p>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="right-top">
+        <div>
+          <h1>Cloud</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus aliquam praesentium quo voluptatum delectus
+            reprehenderit? Et ut distinctio, quisquam, exercitationem eum qui natus accusamus corporis, voluptate quam
+            voluptatibus maxime cumque?</p>
+        </div>
+        <img src="./ff7_flexbox/cloud.png" alt="">
+      </div>
+
+      <div class="right-buttom">
+        <img src="./ff7_flexbox/tifa.png" alt="">
+        <div>
+          <h1>Tifa</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus aliquam praesentium quo voluptatum delectus
+            reprehenderit? Et ut distinctio, quisquam, exercitationem eum qui natus accusamus corporis, voluptate quam
+            voluptatibus maxime cumque?</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
